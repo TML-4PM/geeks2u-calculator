@@ -1,0 +1,101 @@
+[
+    {
+        "category": "Laptops",
+        "products": [
+            { "sku": "LAP-001", "name": "Lenovo IdeaPad Slim 3i Chromebook", "price": 399 },
+            { "sku": "LAP-002", "name": "Lenovo IdeaPad Duet 2-in-1 Chromebook", "price": 499 },
+            { "sku": "LAP-003", "name": "Lenovo IdeaPad Flex 5i 14\"", "price": 799 },
+            { "sku": "LAP-004", "name": "Acer 14\" Swift 1 Notebook", "price": 699 },
+            { "sku": "LAP-005", "name": "ASUS E410 Notebook", "price": 649 }
+        ]
+    },
+    {
+        "category": "Keyboards",
+        "products": [
+            { "sku": "KEY-001", "name": "Logitech K375s Multi-Device Keyboard", "price": 69.95 },
+            { "sku": "KEY-002", "name": "J.Burrows Bluetooth Keyboard Silver KB200", "price": 49.95 },
+            { "sku": "KEY-003", "name": "Logitech Wireless Keyboard K270", "price": 59.95 }
+        ]
+    },
+    {
+        "category": "Monitors",
+        "products": [
+            { "sku": "MON-001", "name": "HP 24\" FHD Monitor", "price": 249 },
+            { "sku": "MON-002", "name": "Dell 27\" UltraSharp Monitor", "price": 599 },
+            { "sku": "MON-003", "name": "Samsung 32\" Curved Monitor", "price": 399 },
+            { "sku": "MON-004", "name": "LG 29\" UltraWide Monitor", "price": 349 },
+            { "sku": "MON-005", "name": "Acer 23.8\" FHD Monitor", "price": 199 }
+        ]
+    },
+    {
+        "category": "Headsets",
+        "products": [
+            { "sku": "HSET-001", "name": "Logitech H390 USB Headset", "price": 79.95 },
+            { "sku": "HSET-002", "name": "Jabra Evolve 20 SE UC Stereo Headset", "price": 99.95 },
+            { "sku": "HSET-003", "name": "Plantronics Blackwire 3220 USB-A Headset", "price": 89.95 }
+        ]
+    },
+    {
+        "category": "Mice",
+        "products": [
+            { "sku": "MOU-001", "name": "Logitech M280 Wireless Mouse", "price": 39.95 },
+            { "sku": "MOU-002", "name": "J.Burrows Wireless Mouse Black", "price": 29.95 },
+            { "sku": "MOU-003", "name": "Microsoft Bluetooth Mouse", "price": 49.95 }
+        ]
+    },
+    {
+        "category": "Other EUC Devices",
+        "products": [
+            { "sku": "PRT-001", "name": "HP LaserJet Pro MFP M428fdw Printer", "price": 699 },
+            { "sku": "PRT-002", "name": "Canon PIXMA TS5360a All-in-One Home Printer", "price": 149 },
+            { "sku": "SCN-001", "name": "Brother DS-640 Portable Scanner", "price": 179 },
+            { "sku": "SCN-002", "name": "Epson Perfection V39 Flatbed Scanner", "price": 149 },
+            { "sku": "WBC-001", "name": "Logitech C920 HD Pro Webcam", "price": 139 },
+            { "sku": "SPK-001", "name": "Jabra Speak 510 Portable Bluetooth Speakerphone", "price": 199 },
+            { "sku": "DOC-001", "name": "Kensington SD4700P Universal USB-C and USB 3.0 Docking Station", "price": 299 },
+            { "sku": "UPS-001", "name": "APC Back-UPS 700VA 230V with AVR", "price": 229 },
+            { "sku": "DOC-002", "name": "Microsoft Surface Dock 2", "price": 419 },
+            { "sku": "NET-001", "name": "TP-Link AC1300 Mini Wireless MU-MIMO USB Adapter", "price": 49.95 }
+        ]
+    },
+    {
+        "category": "Hardware Bundles",
+        "products": [
+            {
+                "sku": "BND-001",
+                "name": "Home Office Starter Pack",
+                "items": [
+                    "Lenovo IdeaPad Slim 3i Chromebook",
+                    "Logitech K375s Multi-Device Keyboard",
+                    "Logitech M280 Wireless Mouse",
+                    "Canon PIXMA TS5360a All-in-One Home Printer"
+                ],
+                "price": 1000
+            },
+            {
+                "sku": "BND-002",
+                "name": "Professional Workstation Bundle",
+                "items": [
+                    "Lenovo IdeaPad Flex 5i 14\"",
+                    "Dell 27\" UltraSharp Monitor",
+                    "Logitech Wireless Keyboard K270",
+                    "Logitech M280 Wireless Mouse",
+                    "Logitech H390 USB Headset"
+                ],
+                "price": 1800
+            },
+            {
+                "sku": "BND-003",
+                "name": "Creative Designer Suite",
+                "items": [
+                    "Acer 14\" Swift 1 Notebook",
+                    "LG 29\" UltraWide Monitor",
+                    "Logitech K375s Multi-Device Keyboard",
+                    "Microsoft Bluetooth Mouse",
+                    "Epson Perfection V39 Flatbed Scanner"
+                ],
+                "price": 1600
+            }
+        ]
+    }
+]
