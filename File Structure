@@ -1,22 +1,22 @@
 📂 job-pricing-calculator/
 │── 📂 public/
-│   │── index.html
-│   │── 03_script.js
-│   │── main.js
+│   │── index.html               # Main UI
+│   │── 03_script.js             # UI logic & interactivity
+│   │── main.js                  # Core script
 │── 📂 assets/
-│   │── officeworks-logo.png
-│   │── geeks2u-logo.png
+│   │── officeworks-logo.png     # Correct branding
+│   │── geeks2u-logo.png         # Correct branding
 │── 📂 functions/
-│   │── api.js
+│   │── api.js                   # Handles email, scheduling, & PDF generation
 │── 📂 data/
-│   │── 04_productList.json
-│   │── sample-calendar.json
+│   │── 04_productList.json      # Corrected product list
+│   │── sample-calendar.json     # Calendar integration
 │── 📂 src/
-│   │── controllers/
-│   │── models/
-│   │── routes/
-│   │── app.js
-│── styles.css
-│── 05_netlify.toml
-│── package.json
-│── README.md
+│   │── controllers/             # Handles user inputs & logic
+│   │── models/                  # Data models for quotes
+│   │── routes/                  # API routes for processing
+│   │── app.js                   # Backend logic
+│── styles.css                   # UI design (modern & Officeworks-themed)
+│── 05_vercel.json               # Deployment config for Vercel
+│── package.json                 # Dependencies & scripts
+│── README.md                    # Personal, ridiculous, and funny
